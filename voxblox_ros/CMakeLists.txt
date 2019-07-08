@@ -22,10 +22,10 @@ cs_add_library(${PROJECT_NAME}
 # BINARIES #
 ############
 
-cs_add_executable(voxblox_eval
-  src/voxblox_eval.cc
-)
-target_link_libraries(voxblox_eval ${PROJECT_NAME})
+#cs_add_executable(voxblox_eval
+#  src/voxblox_eval.cc
+#)
+#target_link_libraries(voxblox_eval ${PROJECT_NAME})
 
 cs_add_executable(tsdf_server
   src/tsdf_server_node.cc
@@ -47,10 +47,10 @@ cs_add_executable(simulation_eval
 )
 target_link_libraries(simulation_eval ${PROJECT_NAME})
 
-cs_add_executable(visualize_tsdf
-  src/visualize_tsdf.cc
-)
-target_link_libraries(visualize_tsdf ${PROJECT_NAME})
+#cs_add_executable(visualize_tsdf
+#  src/visualize_tsdf.cc
+#)
+#target_link_libraries(visualize_tsdf ${PROJECT_NAME})
 
 ##########
 # EXPORT #
